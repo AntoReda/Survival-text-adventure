@@ -5,15 +5,19 @@
     <!-- Tribute game to https://www.thing.de/projekte/7:9%23/queneau_1.html -->
     <head>    
         <title>Da Game</title>
-        <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>  
         <link rel="stylesheet" href="style.css">
+        <script defer src="engine.js"></script>
     </head>
-
+    <div id="HallOfFame"><p>Endings Unlocked:</p>
+        <a href = "Wedding.html"><img class= "Endings" id="Endings1" src="pictures/Burly ending.jpg" alt="Burly Wedding pic"></a>
+        <a href = "Wedding.html"><img class= "Endings" id="Endings1" src="pictures/Burly ending.jpg" alt="Burly Wedding pic"></a>
+    </div>
     <body>
-        <div id="MainMenuTitle">
-            <span id="whiteText" style = "text-decoration: underline; font-weight: bold; font-size: x-large;">Survival Game</span>
+        <div id="MainMenuTitle" style = "margin-top: 0;">
+            
+            <span id="whiteText" style = "text-decoration: underline; font-weight: bold; font-size: x-large;">A day in the life</span>
             <span id="whiteText" style = "font-size: medium;">by Antonio Reda</span>
-            <div><p>Welcome to the survival game. This game will test your ability to survive being a student in Montreal. Good luck!</p></div>
+            <div><p>Welcome to this text based survival game. This game will test your ability to survive and excel as a University student. There are X endings.</br></br>Each ending has an image associated with it. Try to find them all!</br></br>Once you find them all, you can take the Quiz for a neat surprise!</p></div>
             <div id="buttons">
                 <a href="p1.html" > <button id="blackText">Start game</button></a>
             </div>
@@ -21,13 +25,25 @@
                 
                 <a href="https://letmegooglethat.com/?q=How+to+close+a+browser+(I+am+90+years+old)" > <button id="blackText">Quit game</button></a>
             </div>
-            <div id="buttons"style="margin-left: 43.3%;">
+            <div id="buttons"style="margin-left: 43.1%;">
                 
                 <a href="http://make-everything-ok.com/" > <button id="blackText">Settings</button></a>
             </div>
-            <div id="buttons" style="margin-left: 44%">
+            <div id="buttons" style="margin-left: 43.6%">
                 
                 <a href="https://cat-bounce.com/" > <button id="blackText">Cats?</button></a>
+            </div>
+            <div id="buttons" style="margin-left: 43.9%">
+                
+                <a href="quiz.html"> <button id="blackText">Quiz</button></a>
+            </div>
+            <div id="buttons" style="margin-left: 43.9%">
+                
+                <a> <button onclick="appear1()" id="blackText">Appear</button></a>
+            </div>
+            <div id="buttons" style="margin-left: 43.9%">
+                
+                <a> <button onclick="disappear()" id="blackText">Dis</button></a>
             </div>
         </div>
     
@@ -35,3 +51,4 @@
        
     </body>
 </html>
+
