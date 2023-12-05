@@ -144,6 +144,8 @@ body {
     margin-left: 34vw;
     width:10vw;
     margin-top: 2vw;
+    margin-bottom: 2vw;
+    
 }
 /* #choices {
     padding: 15px;
@@ -163,6 +165,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-bottom: 2vw;
 }
 
 button:hover {
