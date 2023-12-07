@@ -8,9 +8,9 @@
 #### dangerous animals
 #### poisonous foods
 #### water safety
-#### 7197
-####
-####
+#### jump start a car properly
+#### eating healthy
+#### accepting gifts from strangers
 ####
 ####
 ####

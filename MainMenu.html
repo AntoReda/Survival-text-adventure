@@ -7,10 +7,12 @@
         <title>Da Game</title>
         <link rel="stylesheet" href="style.css">
         <script defer src="engine.js"></script>
+        <script defer src="displayImage.js"></script>
     </head>
     <div id="HallOfFame"><p>Endings Unlocked:</p>
-        <a href = "Wedding.html"><img class= "Endings" id="Endings1" src="pictures/Burly ending.jpg" alt="Burly Wedding pic"></a>
-        <a href = "Wedding.html"><img class= "Endings" id="Endings1" src="pictures/Burly ending.jpg" alt="Burly Wedding pic"></a>
+        <a href = "endingWedding.html"><img class= "Endings" id="Endings1" src="pictures/Burly ending.jpg" alt="Wedding ending pic"></a>
+        <a href = "endingBoring.html"><img class= "Endings" id="Endings2" src="pictures/boring.jpg" alt="boring ending pic"></a>
+        <a href = "endingJulie.html"><img class= "Endings" id="Endings3" src="pictures/julie.jpg" alt="Julie ending pic"></a>
     </div>
     <body>
         <div id="MainMenuTitle" style = "margin-top: 0;">
@@ -39,11 +41,11 @@
             </div>
             <div id="buttons" style="margin-left: 43.9%">
                 
-                <a> <button onclick="appear1()" id="blackText">Appear</button></a>
+                <a> <button onclick="appearAll()" id="blackText">AddAllTrophy</button></a>
             </div>
             <div id="buttons" style="margin-left: 43.9%">
                 
-                <a> <button onclick="disappear()" id="blackText">Dis</button></a>
+                <a> <button onclick="disappearAll()" id="blackText">DeleteTrophy</button></a>
             </div>
         </div>
     
