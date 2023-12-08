@@ -19,6 +19,15 @@
         display: none;
        
     }
+    .SmallPic{
+        height: 4vw;
+        width: 4vw;
+        border-style: ridge;
+        border-color: #311b09;
+        border-width: 0.3vw;
+        margin-right: 7vw;
+       
+    }
     #EndingPic{
         height: 20vw;
         border-style: ridge;
