@@ -13,32 +13,43 @@ var pic5 = document.getElementById('Endings5');
 var pic6 = document.getElementById('Endings6');
 
 function updateDisplay(){
-
+ var counter = 0;
     if(localStorage.getItem("key1") === 'true')
     {
         pic1.style.display = 'inline';
+        counter++;
     }
     if(localStorage.getItem("key2") === 'true')
     {
         pic2.style.display = 'inline';
+        counter++;
     }
     if(localStorage.getItem("key3") === 'true')
     {
         pic3.style.display = 'inline';
+        counter++;
     }
     if(localStorage.getItem("key4") === 'true')
     {
         pic4.style.display = 'inline';
+        counter++;
     }
     if(localStorage.getItem("key5") === 'true')
     {
         pic5.style.display = 'inline';
+        counter++;
     }
     if(localStorage.getItem("key6") === 'true')
     {
         pic6.style.display = 'inline';
+        counter++;
     }
-    
+    if(counter>4){
+        document.getElementById('QuizB').style.display = 'inline';
+    }
+    else{
+        document.getElementById('QuizB').style.display = 'none';
+    }
 }
 //Launch an instance of the function.
 updateDisplay()

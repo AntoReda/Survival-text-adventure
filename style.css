@@ -19,6 +19,33 @@
         display: none;
        
     }
+    .QuizB{
+        display: none;
+    }
+    .quizQuestions{
+        margin-left: -2vw;
+    
+    }
+    .quizButtons{
+        margin-left: 30vw;
+     
+    }
+    .batteryPics{
+        width:20vw;
+        height:8vw;
+        margin-right: 2vw;
+        border-color: #000000;
+        border-style: ridge;
+        border-width: 0.5vw;
+    }
+    .cprPics{
+        width:15vw;
+        height:10vw;
+        margin-right: 2vw;
+        border-color: #000000;
+        border-style: ridge;
+        border-width: 0.5vw;
+    }
     .SmallPic{
         height: 4vw;
         width: 4vw;

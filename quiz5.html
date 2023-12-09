@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- Tribute game to https://www.thing.de/projekte/7:9%23/queneau_1.html -->
+    <head>    
+        <title>A Day In The Life - WebGame</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="engine.js"></script>
+        <script defer src="displayImage.js"></script>
+    </head>
+    <body>
+        <div id="MainMenuTitle" style = "margin-top: 5vw;">
+            
+            <span id="whiteText" style = "text-decoration: underline; font-weight: bold; font-size: x-large;">A Day In The Life</span>
+            <span id="whiteText" style = "font-size: medium;">by Antonio Reda</span>
+            <p style="margin-left: -4vw;">Quiz</p>
+            <p style="margin-left: -4vw;">Question 5 of 5</p>
+
+                <p class ="quizQuestions" >Chest tightness and difficulty breathing are side effect of...</p>
+                <div style="margin-left: 20vw; margin-bottom: 5vw; margin-top: 2vw;">
+                   <a href="waiting.html"><button style ="margin-right: 2vw;" id="blackText" onclick="quiz5Fail()">Chloramine poisoning</button></a>
+                   <a href="waiting.html"><button style ="margin-right: 2vw;" id="blackText" onclick="quiz5Fail()">Crystal meth</button></a>
+                   <a href="waiting.html"><button style ="margin-right: 2vw;" id="blackText" onclick="quiz5Pass()">Cyanide poisoning</button></a>
+                   <a href="waiting.html"><button style ="margin-right: 2vw;" id="blackText" onclick="quiz5Fail()">Amonia poisoning</button></a>
+                </div>
+        </div>
+    
+        <div id="buttons" style="margin-left: 43.9%">
+                
+            <a href="MainMenu.html"> <button id="blackText">Main Menu</button></a>
+        </div>
+       
+    </body>
+</html>
